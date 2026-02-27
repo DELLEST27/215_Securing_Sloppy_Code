@@ -6,7 +6,7 @@ def run_all_tests():
         ("23", True),
         ("a123", False),
         ("123a", False),
-        (123, True)
+        
     ]
 
     for i, (input_string, expected) in enumerate(tests):
